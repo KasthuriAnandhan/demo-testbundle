@@ -1,0 +1,24 @@
+{
+    "name": "pimcore/demo-testbundle",
+    "description": "A demo bundle for Pimcore",
+    "type": "pimcore-bundle",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "pimcore/pimcore": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Demo\\TestBundle\\": "src/"
+        }
+    },
+    "extra": {
+        "pimcore": {
+            "extensions": {
+                "Demo\\TestBundle\\DemoTestBundle": {
+                    "enabled": true,
+                    "install_path": "vendor/pimcore"
+                }
+            }
+        }
+    }
+}
