@@ -1,5 +1,5 @@
 {
-    "name": "pimcore/demo-testbundle",
+    "name": "gsm/demo-testbundle",
     "description": "A demo bundle for Pimcore",
     "type": "pimcore-bundle",
     "require": {
