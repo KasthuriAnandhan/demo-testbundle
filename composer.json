@@ -8,7 +8,7 @@
     },
     "autoload": {
         "psr-4": {
-            "gsm\\demo-testbundle\\Demo\\TestBundle\\": "src/"
+            "Demo\\TestBundle\\": "src/"
         }
     },
     "license": "MIT",
